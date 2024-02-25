@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto',Arial,sans-serif;
+    background: #e6e6e6;
+}
+
+#nav{
+    flex-grow: 0;
+    
+}
+
+.box{
+    background: #9BE0FF;
+    border: 1px solid black;
+    height: 50px;
+}
+
+.btn{
+    background: #9BE0FF;
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100%; /* Adjust height as needed */
+}
+
+.card{
+    background-color: #e6e6e6;
+}
+
+.card-body{
+    background-color: #e6e6e6;
+    
+}
+
+#testimonial-section h6{
+    color: #19b6ff;
+}
+
+.testimonial-body{
+    background-color: #9BE0FF   ;
+}
+
+
+
+
