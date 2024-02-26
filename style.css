@@ -115,20 +115,13 @@ body{
         text-align: center;
     }
 
-    .carousel-control-next{
-        justify-content: end;
-    }
-
-    .carousel-control-prev{
-        justify-content: start;
-    }
 
     
 
     /*Appointment Form*/
 
     .form-header{
-        margin-left: 80px;
+        padding-left: 50px;
     }
 
     .form-body{
