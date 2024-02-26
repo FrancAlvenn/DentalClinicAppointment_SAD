@@ -73,22 +73,22 @@ body{
         margin-top: 60px;
     }
     .collapse button{
-        font-size: small;
+        font-size: 8px;
     }
     .carousel-item h3 {
-        font-size: medium;
+        visibility: hidden;
     }
 
     .carousel-item p{
-        font-size: 10px;
+        visibility: hidden;
     }
 
     .carousel-item button{
-        font-size: 11px;
+        font-size: 8px;
     }
 
     .carousel-caption{
-        top: 61%!important;
+        top: 30%!important;
     }
 
     /*Image Header Text*/
