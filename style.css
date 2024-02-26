@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto',Arial,sans-serif;
     background: #e6e6e6;
+    color: black;
+    overflow-x: hidden;
 }
 
 #nav{
@@ -41,7 +43,5 @@ body{
 .testimonial-body{
     background-color: #9BE0FF   ;
 }
-
-
 
 
