@@ -331,52 +331,149 @@
     <hr style="width: 75%; border: none; height: 1px; background-color: black; margin: 40px auto;">
 
 
-
     <!-- Appointment Form Section-->
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <div class="form-header">
-                    <h2>Get Appointment</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-                        Nam corrupti molestiae totam.Velit dignissimos soluta beatae.</p>
-                </div>
+    <div class="container" style="margin-bottom: 200px;">
+        <div class="row ">
+            <!-- Form Column-->
+            <div class="form-header mt-5 pt-5 mb-5">
+                <h2>Get Appointment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                    Nam corrupti molestiae totam.Velit dignissimos soluta beatae.</p>
+            </div>
+            <div class="col-6 p-5 rounded-5" style="background-color: #9BE0FF;">
+                
                 <form action="" novalidate>
-                    <div class="form-floating">
-                        <input type="text" class="form-control" placeholder ="First Name" required>
-                        <label for="text">First Name*</label>
+                    <div class="row mb-5 pt-4" >
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control " placeholder ="First Name" required style="margin-right: 10px;">
+                                <label for="text">First Name*</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" placeholder ="First Name" required>
+                                <label for="text">Last Name*</label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-floating">
-                        <input type="text" class="form-control" placeholder ="First Name" required>
-                        <label for="text">Last Name*</label>
+                    <div class="row mb-5">
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" placeholder ="Enter you email here:" required>
+                                <label for="email" >Email*</label>
+                                <div class="invalid-feedback">Invalid Email</div>
+                                <div class="valid-feedback">Valid Email</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="number_format" class="form-control" placeholder ="Enter you phone number here" required>
+                                <label for="number" >Phone Number*</label>
+                                <div class="invalid-feedback">Invalid Phone Number</div>
+                                <div class="valid-feedback">Valid Phone Number</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-floating">
-                        <input type="email" class="form-control" placeholder ="Enter you email here:" required>
-                        <label for="email" >Email*</label>
-                        <div class="invalid-feedback">Invalid Email</div>
-                        <div class="valid-feedback">Valid Email</div>
+                    <div class="form-floating mb-5 ">
+                        <input type="date" class="form-control" placeholder ="Enter your preferred date" required>
+                        <label for="date" >Preferred Date*</label>
+                        <div class="invalid-feedback">Invalid Date</div>
+                        <div class="valid-feedback">Valid Date</div>
                     </div>
-                    <div class="form-floating">
-                        <input type="number_format" class="form-control" placeholder ="Enter you phone number here" required>
-                        <label for="email" >Phone Number*</label>
-                        <div class="invalid-feedback">Invalid Phone Number</div>
-                        <div class="valid-feedback">Valid Phone Number</div>
-
+                    <div class="form-floating mb-5 ">
+                        <input type="time" class="form-control" placeholder ="Enter your preferred time" required>
+                        <label for="time" >Preferred Time*</label>
+                        <div class="invalid-feedback">Invalid Time</div>
+                        <div class="valid-feedback">Valid Time</div>
                     </div>
-                    
-                    <hr>
-                        <button class="btn btn-primary ">Submit</button>
+                    <div class="form-floating mb-5">
+                        <textarea class="form-control" id="textarea" rows="4" placeholder ="Comments/Concerns" style="height: 200px; resize: none;"></textarea>
+                        <label for="textarea">Comments/Concerns</label>
+                    </div>
+                    <div class="container d-flex justify-content-end ">
+                        <button class="btn btn-primary mt-4 px-5 py-2 rounded-5 border-2 border-black " style="color: black;">Submit</button>
+                    </div>
                 </form>
             </div>
+
+            <div class="col-6 rounded-5">
+                <div class="container">
+                    <h2 class="py-2">Our Address</h2>
+                    <div class="container">
+                        <!--Google map-->
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d964.3760947637345!2d120.92813962851038!3d14.796923995733389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ad6fb57f5813%3A0x2ba0a06c1d88eb1a!2s17%20Gov%20Fortunato%20Halili%20Ave%2C%20Bocaue%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1708916664903!5m2!1sen!2sph"
+                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <h5 class="py-2 ">019 Gov. F Halili Ext Ave Binang 2nd , Bocaue, Philippines</h5>
+                    <hr>
+                    <h3 class="py-2 ">Our Phone</h3>
+                    <h5 class="py-2 ">0943 359 9161</h5>
+                    <hr>
+                    <h3 class="py-2 ">Our Email</h3>
+                    <h5 class="py-2">docjohnny2018@gmail.com</h5>
+                </div>
+            </div>
         </div>
-
-
-
     </div>
 
 
+    <!--Footer-->
+    <footer class="text-lg-start" style="background-color: #9BE0FF;">
+        <div class="p-5 pb-0 ">
+            <section class="">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="resources\brand_logo.jpg" alt="Brand Logo" class="img-fluid" style="width: 100%;">
+                    </div>
+                    <div class="col-md-3 col-lg-4 col-xl-4  mt-3 text-start ">
+
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Dr. Johnny Mar Cabugon Dental Clinic
+                        </h6>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                        </p>
+                    </div>
+
+                    <!--Contact Info-->
+                    <div class="col-md-8 col-lg-7 col-xl-7 mt-3 text-end ">
+                        <a class="btn btn-floating m-1 rounded-5" style="background-color: #000000; color: #ffffff; " href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-floating m-1 rounded-5" style="background-color: #000000; color: #ffffff; " href="#!" role="button"><i class="fab fa-twitter" ></i></a>
+                        <a class="btn btn-floating m-1 rounded-5" style="background-color: #000000; color: #ffffff" href="#!" role="button"><i class="fab fa-google" ></i></a>
+                        <div class="d-flex justify-content-end ">
+                            <hr class="w-25">
+                        </div>
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                        <p><i class="fas fa-home mr-3"></i> 019 Gov. F Halili Ext Ave Binang 2nd , Bocaue, Philippines</p>
+                        <p><i class="fas fa-envelope mr-3"></i> docjohnny2018@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> 0943 359 9161</p>
+
+                    </div>
+
+                    <!--Icons-->
+
+
+                </div>
+            </section>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Dr. Johnny Mar Cabugon Dental Clinic</a>
+        </div>
+    </footer>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" defer></script>
 
     <script>
         const form = document.querySelector("form")
