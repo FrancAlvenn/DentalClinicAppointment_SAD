@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto',Arial,sans-serif;
     background: #e6e6e6;
     color: black;
-    overflow-x: hidden;
+
 }
 
 #nav{
@@ -45,3 +45,429 @@ body{
 }
 
 
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    /*Navigation Bar*/
+    .navbar-img{
+        width: 50px!important;
+    }
+
+    .navbar-brand{
+         font-size: 10px!important;
+    }
+
+    nav li{
+        font-size: 10px;
+    }
+
+    .nav-btn{
+        font-size: 10px!important;
+    }
+
+    /*Header Carousel*/
+    #headerCarousel{
+        margin-top: 60px;
+    }
+    .collapse button{
+        font-size: small;
+    }
+    .carousel-item h3 {
+        font-size: medium;
+    }
+
+    .carousel-item p{
+        font-size: 10px;
+    }
+
+    .carousel-item button{
+        font-size: 11px;
+    }
+
+    .carousel-caption{
+        top: 61%!important;
+    }
+
+    /*Image Header Text*/
+    .container p{
+        font-size: 10px;
+    }
+
+    .image-header-text{
+        width: 80%;
+    }
+
+    .image-header-text img{
+        width: 350px;
+    }
+
+    .image-header-text .col-md-6{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    /*Services Carousel*/
+    .card-body{
+        text-align: center;
+    }
+
+    .carousel-control-next{
+        justify-content: end;
+    }
+
+    .carousel-control-prev{
+        justify-content: start;
+    }
+
+    
+
+    /*Appointment Form*/
+
+    .form-header{
+        margin-left: 80px;
+    }
+
+    .form-body{
+        font-size: small;
+    }
+
+    #map-container-google-1 iframe{
+        width: 400px;
+        height: 400px;
+    }
+
+    .form-appointment{
+        margin-bottom: 10px!important;
+    }
+
+    /*Footer*/
+    footer p{
+        font-size: 10px;
+    }
+
+    .footer-img{
+        visibility: hidden;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 576px) {
+            /*Navigation Bar*/
+            .navbar-img{
+                width: 50px!important;
+            }
+    
+            .navbar-brand{
+                 font-size: 10px!important;
+            }
+    
+            nav li{
+                font-size: smaller;
+            }
+    
+            .nav-btn{
+                font-size: 10px!important;
+            }
+        
+            /*Header Carousel*/
+            #headerCarousel{
+                margin-top: 60px;
+            }
+            .collapse button{
+                font-size: small;
+            }
+            .carousel-item h3 {
+                font-size: medium;
+            }
+        
+            .carousel-item p{
+                font-size: 10px;
+            }
+        
+            .carousel-item button{
+                font-size: 11px;
+            }
+    
+            .carousel-caption{
+                top: 61%!important;
+            }
+        
+            /*Image Header Text*/
+            .container p{
+                font-size: small;
+            }
+        
+            .image-header-text{
+                width: 80%;
+            }
+        
+            /*Services Carousel*/
+            .card-body{
+                text-align: center;
+            }
+        
+            .carousel-control-next{
+                justify-content: end;
+            }
+        
+            .carousel-control-prev{
+                justify-content: start;
+            }
+    
+            
+        
+            /*Appointment Form*/
+        
+            .form-body{
+                font-size: small;
+            }
+        
+            #map-container-google-1 iframe{
+                width: 410px;
+                height: 410px;
+            }
+        
+            /*Footer*/
+            footer p{
+                font-size: 10px;
+            }
+
+            .footer-img{
+                visibility: hidden;
+            }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media (min-width: 768px) {
+
+        /*Navigation Bar*/
+        .navbar-img{
+            width: 50px!important;
+        }
+
+        .navbar-brand{
+             font-size: 10px!important;
+        }
+
+        nav li{
+            font-size: 10px;
+        }
+
+        .nav-btn{
+            font-size: 10px!important;
+        }
+    
+        /*Header Carousel*/
+        #headerCarousel{
+            margin-top: 60px;
+        }
+        .collapse button{
+            font-size: small;
+        }
+        .carousel-item h3 {
+            font-size: medium;
+        }
+    
+        .carousel-item p{
+            font-size: 10px;
+        }
+    
+        .carousel-item button{
+            font-size: 11px;
+        }
+
+        .carousel-caption{
+            top: 61%!important;
+        }
+    
+        /*Image Header Text*/
+        .container p{
+            font-size: small;
+        }
+    
+        .image-header-text{
+            width: 80%;
+        }
+    
+        /*Services Carousel*/
+        .card-body{
+            text-align: center;
+        }
+    
+        .carousel-control-next{
+            justify-content: end;
+        }
+    
+        .carousel-control-prev{
+            justify-content: start;
+        }
+
+        
+    
+        /*Appointment Form*/
+    
+        .form-body{
+            font-size: small;
+        }
+    
+        #map-container-google-1 iframe{
+            width: 410px;
+            height: 410px;
+        }
+    
+        /*Footer*/
+        footer p{
+            font-size: 10px;
+        }
+
+        .footer-img{
+            visibility: visible;
+        }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media  (min-width: 992px) {
+    /*Navigation Bar*/
+    .navbar-img{
+        width: 60px!important;
+    }
+
+    .navbar-brand{
+         font-size: small!important;
+    }
+
+    nav li{
+        font-size: small;
+    }
+
+    .nav-btn{
+        font-size: small!important;
+    }
+
+    /*Header Carousel*/
+    #headerCarousel{
+        margin-top: 50px;
+    }
+    .collapse button{
+        font-size: small;
+    }
+    .carousel-item h3 {
+        font-size: large;
+    }
+
+    .carousel-item p{
+        font-size: small;
+    }
+
+    .carousel-item button{
+        font-size: small;
+    }
+
+    /*Image Header Text*/
+    .container p{
+        font-size: small;
+    }
+
+    .image-header-text{
+        width: 80%;
+    }
+
+    /*Services Carousel*/
+    .card-body{
+        text-align: center;
+    }
+
+
+    /*Appointment Form*/
+    .form-header{
+        padding-left: 50px;
+    }
+
+    .form-body{
+        margin-left: 40px;
+        font-size: small;
+    }
+
+    #map-container-google-1 iframe{
+        width: 350px;
+        height: 350px;
+    }
+
+    /*Footer*/
+    footer p{
+        font-size: smaller;
+    }
+
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+
+    /*Navigation Bar*/
+    .navbar-img{
+        width: 70px!important;
+    }
+
+    /*Header Carousel*/
+    #headerCarousel{
+        margin-top: 50px;
+    }
+    .collapse button{
+        font-size: medium;
+    }
+    .carousel-item h3 {
+        font-size: x-large;
+    }
+
+    .carousel-item p{
+        font-size: medium;
+    }
+
+    .carousel-item button{
+        font-size: medium;
+    }
+
+    /*Image Header Text*/
+    .container p{
+        font-size: medium;
+    }
+
+
+    .image-header-text{
+        width: 80%;
+    }
+
+    /*Services Carousel*/
+    .card-body{
+        text-align: center;
+    }
+
+    .carousel-control-next{
+        justify-content: end;
+    }
+
+    .carousel-control-prev{
+        justify-content: start;
+    }
+
+
+    /*Appointment Form*/
+    .form-header{
+        padding-left: 100px;
+    }
+
+    .form-body{
+        margin-left: 40px;
+        font-size: small;
+    }
+
+    #map-container-google-1 iframe{
+        width: 490px;
+        height: 450px;
+    }
+
+  }

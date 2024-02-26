@@ -22,8 +22,8 @@
     <!-- Navigation Bar -->
     <nav class="navbar fixed-top navbar-expand-md bg-white ">
         <div class="container" id="nav-container">
-            <img src="resources\brand_logo.jpg" alt="Brand Logo" class="img-fluid rounded-5 " style="width: 60px">
-            <a href="#" class="navbar-brand collapse navbar-collapse px-3 " style="font-size: 13px;">Dr. Johnny Mar Cabugon Dental Clinic </a>
+            <img src="resources\brand_logo.jpg" alt="Brand Logo" class="img-fluid rounded-5 navbar-img">
+            <a href="#" class="navbar-brand collapse navbar-collapse px-3 " style="font-size: 16px;">Dr. Johnny Mar Cabugon Dental Clinic </a>
             <button class="navbar-toggler" data-bs-toggle="collapse"
             data-bs-target="#nav" aria-controls = "nav" aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,21 +47,21 @@
                     </li>
 
                 </ul>
-                <button class="btn rounded-5 px-4"><i class="fa-solid fa-calendar"
+                <button class="btn rounded-5 px-4 nav-btn"><i class="fa-solid fa-calendar"
                 style="margin-right: 10px;"></i>Book an Appointment</button>
             </div>
         </div>
     </nav>
 
     <!-- Header Carousel-->
-    <div id="headerCarousel" class="carousel slide pt-2 pb-5  " data-bs-ride="carousel">
+    <div id="headerCarousel" class="carousel slide pt-2 pb-5  " data-bs-ride="carouse">
         <div class="carousel-inner">
 
             <div class="carousel-item active carousel-item">
                 <div class="carousel-caption"
                 style="position: absolute; top: 70%; left: 30%; transform: translate(-50%, -50%);">
-                    <h3 class="text-black     text-md">Lorem ipsum dolor</h3>
-                    <p class="text-black    text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3 class="text-black text-md">Lorem ipsum dolor</h3>
+                    <p class="text-black text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <button class="btn rounded-5 px-4"><i class="fa-solid fa-calendar"
                     style="margin-right: 10px;"></i>Book an Appointment</button>
                 </div>
@@ -102,7 +102,7 @@
     </div>
 
     <!-- Image Text Container-->
-    <div class="container pt-5 pb-5">
+    <div class="container pt-5 pb-5  image-header-text">
         <div class="row">
             <div class="col-md-6">
                 <div class="inner-div">
@@ -113,7 +113,7 @@
             <div class="col-md-6" >
                 <div class="inner-div centered-text">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
                         Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.Nemo atque Lorem ipsum
                         <br><br>
@@ -131,219 +131,173 @@
     <hr style="width: 75%; border: none; height: 1px; background-color: black; margin: 40px auto;">
 
     <!-- Services Carousel(by 3)-->
-    <div id="servicesCarousel" class="carousel slide pt-3 pb-5" data-bs-ride="carousel">
-        <div class="title text-center pt-5 pb-5">
-            <h1>Services</h1>
+    <div class="container">
+        
+            <div class="title text-center pt-5 pb-5">
+                <h2>Services</h2>
+            </div>
+            
+            <div class="row mb-5">
+                <div class="col d-flex justify-content-center align-items-center pb-5 col-xl-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="resources\tooth_whitening.svg" class="card-img-top p-5" alt="Dental Cleaning">
+                    <h4 class="card-title text-center pt-3">Teeth Whitening</h4>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
+                    </div>
+                </div>
+                </div>
 
-        </div>
-        <div class="carousel-inner">
+                <div class="col d-flex justify-content-center align-items-center pb-5 col-xl-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="resources\dental_checkup.svg" class="card-img-top p-5" alt="Dental Cleaning">
+                    <h4 class="card-title text-center pt-3">Dental Check-up</h4>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
+                    </div>
+                </div>
+                </div>
 
-            <div class="carousel-item active">
-                <div class="container text-center ">
-                    <div class="row  ">
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\tooth_whitening.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Teeth Whitening</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="col d-flex justify-content-center align-items-center pb-5 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="resources\dental_cleaning.svg" class="card-img-top p-5" alt="Dental Cleaning">
+                        <h4 class="card-title text-center pt-3">Dental Cleaning</h4>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center align-items-center pb-5 col-xl-4" >
+                    <div class="card" style="width: 18rem;">
+                        <img src="resources\tooth_whitening.svg" class="card-img-top p-5" alt="Dental Cleaning">
+                        <h4 class="card-title text-center pt-3">Teeth Whitening</h4>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
                         </div>
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\dental_checkup.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Dental Check-up</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
+                    </div>
+                    </div>
+    
+                    <div class="col d-flex justify-content-center align-items-center pb-5 col-xl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="resources\dental_checkup.svg" class="card-img-top p-5" alt="Dental Cleaning">
+                        <h4 class="card-title text-center pt-3">Dental Check-up</h4>
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
                         </div>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center align-items-center">
+                    </div>
+                    </div>
+    
+                    <div class="col d-flex justify-content-center align-items-center pb-5 col-xl-4">
                         <div class="card" style="width: 18rem;">
                             <img src="resources\dental_cleaning.svg" class="card-img-top p-5" alt="Dental Cleaning">
                             <h4 class="card-title text-center pt-3">Dental Cleaning</h4>
                             <div class="card-body">
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
+                            Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
                             </div>
                         </div>
-                        </div>
                     </div>
-                </div>
+
             </div>
 
-            <div class="carousel-item">
-            <div class="container">
-                    <div class="row">
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\tooth_whitening.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Teeth Whitening</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\dental_checkup.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Dental Check-up</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\dental_cleaning.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Dental Cleaning</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-            <div class="container">
-                    <div class="row">
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\tooth_whitening.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Teeth Whitening</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\dental_checkup.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Dental Check-up</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center align-items-center">
-                        <div class="card" style="width: 18rem;">
-                            <img src="resources\dental_cleaning.svg" class="card-img-top p-5" alt="Dental Cleaning">
-                            <h4 class="card-title text-center pt-3">Dental Cleaning</h4>
-                            <div class="card-body">
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nemo atque Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev " type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" id="carousel-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button"  data-bs-target="#servicesCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" id="carousel-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+
 
     <hr style="width: 75%; border: none; height: 1px; background-color: black; margin: 40px auto;">
 
     <!-- Testimonials Section-->
-    <section id="testimonial-section">
-        <div class="row d-flex justify-content-center pb-5 ">
-            <div class="col-md-8 col-xl-8 text-center">
-            <h3 class="mb-4">Testimonials</h3>
-            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
-                numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
-                quisquam eum porro a pariatur veniam.
-            </p>
+    <div class="container">
+        <section id="testimonial-section">
+            <div class="row d-flex justify-content-center pb-5 ">
+                <div class="col-md-8 col-xl-8 text-center">
+                <h3 class="mb-4">Testimonials</h3>
+                <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                    numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+                    quisquam eum porro a pariatur veniam.
+                </p>
+                </div>
             </div>
-        </div>
-
-        <div class="container pb-5">
-            <div class="row d-flex justify-content-around ">
-                <div class="col-md-3 mb-5 mb-md-0 p-5 testimonial-body" style="position: relative;">
-                <i class="fas fa-quote-left pe-3 fa-3x ps-3 " style="position: absolute; top: 0; left: 0;" ></i>
-                <p class="px-xl-3 pb-5 pt-3">
-
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
-                    <br><br>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
-                </p>
-                <h5 class="mb-1 px-3">Franc, Japan</h5>
-                <h6 class=" mb-3 px-3 ">via Facebook</h6>
+    
+            <div class="container pb-5">
+                <div class="row d-flex justify-content-around ">
+                    <div class="col mb-5 mb-md-0 p-5 m-3 testimonial-body " style="position: relative;">
+                    <i class="fas fa-quote-left pe-3 fa-3x ps-3 " style="position: absolute; top: 0; left: 0;" ></i>
+                    <p class="px-xl-3 pb-5 pt-3">
+    
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                        tenetur.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                        tenetur.
+                    </p>
+                    <h5 class="mb-1 px-3">Franc, Japan</h5>
+                    <h6 class=" mb-3 px-3 ">via Facebook</h6>
+                    </div>
+    
+                    <div class="col mb-5 mb-md-0 p-5 m-3 testimonial-body" style="position: relative;">
+                    <i class="fas fa-quote-left pe-3 fa-3x ps-3 " style="position: absolute; top: 0; left: 0;" ></i>
+                    <p class="px-xl-3 pb-5 pt-3">
+    
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                        tenetur.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                        tenetur.
+                    </p>
+                    <h5 class="mb-1 px-3">Alexa, Philippines</h5>
+                    <h6 class=" mb-3 px-3 ">via Facebook</h6>
+                    </div>
+    
+                    <div class="col mb-5 mb-md-0 p-5 m-3 mt-md-4 testimonial-body" style="position: relative;">
+                    <i class="fas fa-quote-left pe-3 fa-3x ps-3 " style="position: absolute; top: 0; left: 0;" ></i>
+                    <p class="px-xl-3 pb-5 pt-3">
+    
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                        tenetur.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
+                        tenetur.
+                    </p>
+                    <h5 class="mb-1 px-3">Patricia, Norway</h5>
+                    <h6 class=" mb-3 px-3 ">via Facebook</h6>
+                    </div>
+    
                 </div>
-
-                <div class="col-md-3 mb-5 mb-md-0 p-5 testimonial-body" style="position: relative;">
-                <i class="fas fa-quote-left pe-3 fa-3x ps-3 " style="position: absolute; top: 0; left: 0;" ></i>
-                <p class="px-xl-3 pb-5 pt-3">
-
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
-                    <br><br>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
-                </p>
-                <h5 class="mb-1 px-3">Alexa, Philippines</h5>
-                <h6 class=" mb-3 px-3 ">via Facebook</h6>
-                </div>
-
-                <div class="col-md-3 mb-5 mb-md-0 p-5 testimonial-body" style="position: relative;">
-                <i class="fas fa-quote-left pe-3 fa-3x ps-3 " style="position: absolute; top: 0; left: 0;" ></i>
-                <p class="px-xl-3 pb-5 pt-3">
-
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
-                    <br><br>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
-                    tenetur.
-                </p>
-                <h5 class="mb-1 px-3">Patricia, Norway</h5>
-                <h6 class=" mb-3 px-3 ">via Facebook</h6>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+    
 
     <hr style="width: 75%; border: none; height: 1px; background-color: black; margin: 40px auto;">
 
 
     <!-- Appointment Form Section-->
     <div class="container" style="margin-bottom: 200px;">
-        <div class="row ">
+        <div class="row d-flex justify-content-around  d-lg-flex justify-content-lg-start ">
             <!-- Form Column-->
-            <div class="form-header mt-5 pt-5 mb-5">
-                <h2>Get Appointment</h2>
+            <div class="form-header mt-5 pt-5 mb-5 ps-lg-0 col-md-8 ps-lg-5 " >
+                <h3>Get Appointment</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
                     Nam corrupti molestiae totam.Velit dignissimos soluta beatae.</p>
             </div>
-            <div class="col-6 p-5 rounded-5" style="background-color: #9BE0FF;">
-                
-                <form action="" novalidate>
-                    <div class="row mb-5 pt-4" >
+            <div class="col-lg-6 p-lg-4 p-xl-5 col-md-8 col-10 p-4 mb-5  rounded-5 form-body " style="background-color: #9BE0FF;">
+
+                <form action="" novalidate >
+                    <div class="row mb-5 mb-lg-3 pt-4 mb-md-3 form-appointment" >
                         <div class="col-6">
                             <div class="form-floating">
                                 <input type="text" class="form-control " placeholder ="First Name" required style="margin-right: 10px;">
@@ -357,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-5">
+                    <div class="row mb-5 mb-lg-3 mb-md-3 form-appointment">
                         <div class="col-6">
                             <div class="form-floating">
                                 <input type="email" class="form-control" placeholder ="Enter you email here:" required>
@@ -375,19 +329,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-floating mb-5 ">
+                    <div class="form-floating mb-5 mb-lg-3 mb-md-3 form-appointment">
                         <input type="date" class="form-control" placeholder ="Enter your preferred date" required>
                         <label for="date" >Preferred Date*</label>
                         <div class="invalid-feedback">Invalid Date</div>
                         <div class="valid-feedback">Valid Date</div>
                     </div>
-                    <div class="form-floating mb-5 ">
+                    <div class="form-floating mb-5 mb-lg-3 mb-md-3 form-appointment">
                         <input type="time" class="form-control" placeholder ="Enter your preferred time" required>
                         <label for="time" >Preferred Time*</label>
                         <div class="invalid-feedback">Invalid Time</div>
                         <div class="valid-feedback">Valid Time</div>
                     </div>
-                    <div class="form-floating mb-5">
+                    <div class="form-floating mb-5 mb-lg-3 mb-md-3 form-appointment">
                         <textarea class="form-control" id="textarea" rows="4" placeholder ="Comments/Concerns" style="height: 200px; resize: none;"></textarea>
                         <label for="textarea">Comments/Concerns</label>
                     </div>
@@ -397,27 +351,28 @@
                 </form>
             </div>
 
-            <div class="col-6 rounded-5">
+            <div class="col-lg-5 col-6 rounded-5 col-md-8 mt-md-5 col-10">
                 <div class="container">
-                    <h2 class="py-2">Our Address</h2>
-                    <div class="container">
+                    <h4 class="py-2">Our Address</h4>
+                    <div class="container p-0">
                         <!--Google map-->
-                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d964.3760947637345!2d120.92813962851038!3d14.796923995733389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ad6fb57f5813%3A0x2ba0a06c1d88eb1a!2s17%20Gov%20Fortunato%20Halili%20Ave%2C%20Bocaue%2C%20Bulacan!5e0!3m2!1sen!2sph!4v1708916664903!5m2!1sen!2sph"
                              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-                    <h5 class="py-2 ">019 Gov. F Halili Ext Ave Binang 2nd , Bocaue, Philippines</h5>
+                    <p class="py-2 ">019 Gov. F Halili Ext Ave Binang 2nd , Bocaue, Philippines</p>
                     <hr>
-                    <h3 class="py-2 ">Our Phone</h3>
-                    <h5 class="py-2 ">0943 359 9161</h5>
+                    <h5 class="py-2 ">Our Phone</h5>
+                    <p class="py-2 ">0943 359 9161</p>
                     <hr>
-                    <h3 class="py-2 ">Our Email</h3>
-                    <h5 class="py-2">docjohnny2018@gmail.com</h5>
+                    <h class="py-2 ">Our Email</h>
+                    <p class="py-2">docjohnny2018@gmail.com</p>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     <!--Footer-->
@@ -426,14 +381,14 @@
             <section class="">
                 <div class="row">
                     <div class="col-1">
-                        <img src="resources\brand_logo.jpg" alt="Brand Logo" class="img-fluid" style="width: 100%;">
+                        <img src="resources\brand_logo.jpg" alt="Brand Logo" class="img-fluid footer-img" style="width: 100%;">
                     </div>
                     <div class="col-md-3 col-lg-4 col-xl-4  mt-3 text-start ">
 
                         <h6 class="text-uppercase mb-4 font-weight-bold">
                             Dr. Johnny Mar Cabugon Dental Clinic
                         </h6>
-                        <p>
+                        <p class="">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit.Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit.Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -464,8 +419,7 @@
         </div>
 
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2020 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">Dr. Johnny Mar Cabugon Dental Clinic</a>
+            © 2020 Copyright
         </div>
     </footer>
 
